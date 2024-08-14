@@ -21,5 +21,7 @@ A new flutter plugin project.
   s.dependency  'GoogleMLKit/BarcodeScanning'
   s.platform = :ios, '8.0'
   s.static_framework = true
-  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
+#  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
+
 end
